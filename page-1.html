@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Lato:regular" rel="stylesheet" />
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Personal_blog Home</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <!-- Header -->
+      <header class="header">
+   <div class="header__row">
+      <nav class="header__menu  menu">
+         <div class="menu__icon  icon-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class="menu__body">
+            <ul class="menu__list">
+               <li class="menu__item">
+                  <!-- подключаем страницы и меняем стили у активной ссылки(страницы) -->
+                  <a href="index.html" class="menu__link ">Главная</a>
+               </li>
+               <!-- подключаем страницы и меняем стили у активной ссылки(страницы) -->
+               <li class="menu__item"><a href="post-single.html" class="menu__link has-subnav">Статьи</a>
+                  <ul class="sub-menu">
+                     <li class="sub-menu__item"><a href="" class="sub-menu__link">Продвижение видео</a></li>
+                     <li class="sub-menu__item"><a href="" class="sub-menu__link">Интернет-маркетинг</a></li>
+                     <li class="sub-menu__item"><a href="" class="sub-menu__link">Создание сайтов</a></li>
+                  </ul>
+               </li>
+               <li class="menu__item"><a href="about.html" class="menu__link">Обо мне</a></li>
+               <li class="menu__item"><a href="ads.html" class="menu__link">Реклама</a></li>
+               <li class="menu__item"><a href="profile.html" class="menu__link">Профиль</a></li>
+
+            </ul>
+         </div>
+      </nav>
+      <form action="search.html" class="header__form" method="get">
+         <input type="text" class="header__input" tabindex="1" placeholder="Поиск по блогу">
+      </form>
+
+   </div>
+
+</header>
+
+      <div class="content">
+         <!-- Aside(Sidebar) -->
+         <aside class="sidebar">
+   <div class="sidebar__header  header-sidebar">
+      <figure class="header-sidebar__image">
+         <img src="./img/Aside-img.jpg" alt="table with laptop">
+      </figure>
+   </div>
+   <div class="sidebar__content">
+
+      <div class="sidebar__person  person-sidebar">
+         <div class="person-sidebar__header">
+            <figure class="person-sidebar__image">
+               <!-- <img src="./img/sidebar-person.png" alt="man"> -->
+            </figure>
+            <div class="person-sidebar__info">
+
+               <h3 class="person-sidebar__name">Дмитрий Валак</h3>
+               <p class="person-sidebar__prof">блог front-end разработчика</p>
+            </div>
+         </div>
+
+
+         <figure class="person-sidebar__social  sidebar-social">
+            </a>
+            <a href="https://www.instagram.com/" class="sidebar-social__link " target="_blank">
+               <img src="./img/icons/sidebar-icon-instagram.svg" alt="instagram">
+            </a>
+            <a href="https://vk.com/" class="sidebar-social__link " target="_blank">
+               <img src="./img/icons/sidebar-icon-vk.svg" alt="vk">
+            </a>
+            <a href="https://ru.pinterest.com/" class="sidebar-social__link " target="_blank">
+               <img src="./img/icons/sidebar-icon-pinterest.svg" alt="pinterest">
+            </a>
+         </figure>
+         <hr class="person-sidebar__line">
+
+         <nav class="aside-menu  ">
+
+            <div class="aside-menu__body">
+               <ul class="aside-menu__list">
+                  <li class="aside-menu__item">
+                     <!-- подключаем страницы и меняем стили у активной ссылки(страницы) -->
+                     <a href="index.html" class="aside-menu__link ">Главная</a>
+                  </li>
+                  <!-- подключаем страницы и меняем стили у активной ссылки(страницы) -->
+                  <li class="aside-menu__item"><a href="post-single.html" class="aside-menu__link has-subnav">Статьи</a>
+                     <ul class="aside-sub-menu">
+                        <li class="aside-sub-menu__item"><a href="" class="aside-sub-menu__link">Продвижение видео</a>
+                        </li>
+                        <li class="aside-sub-menu__item"><a href="" class="aside-sub-menu__link">Интернет-маркетинг</a>
+                        </li>
+                        <li class="aside-sub-menu__item"><a href="" class="aside-sub-menu__link">Создание сайтов</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="aside-menu__item"><a href="text-page.html" class="aside-menu__link">Обо мне</a></li>
+                  <li class="aside-menu__item"><a href="ads.html" class="aside-menu__link">Реклама</a></li>
+                  <li class="aside-menu__item"><a href="profile.html" class="aside-menu__link">Профиль</a></li>
+
+               </ul>
+            </div>
+         </nav>
+
+         <p class="person-sidebar__text">Front-end разработчик. Практик верстки сайтов.
+            Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал более 10 000 часов
+            в создании
+            сайтов различной сложности.</p>
+         <hr class="person-sidebar__line">
+         <div class="person-sidebar__buttons">
+            <a href="works.html" class="person-sidebar__btn sidebar__btn--red">Мои работы</a>
+            <button class="person-sidebar__btn sidebar__btn--blue  modal-more-btn" data-modal="contact-modal"
+               type="button">Написать мне</button>
+         </div>
+      </div>
+
+   </div>
+
+
+
+</aside>
+
+         <!-- Main -->
+         <main class="page">
+            <!-- Stories -->
+
+
+
+            <!-- Add-post -->
+            <div class="add-post">
+               <div class="container ">
+                  <form action="/" class="add-post__form" method="post">
+                     <textarea class="add-post__textarea" placeholder="Напишите что-нибудь" name=""
+                        tabindex="2"></textarea>
+                     <div class="add-post__form-action">
+
+                        <label for="add-post__file" class="add-post__label">
+                           <input type="file" name="" id="add-post__file" tabindex="3">
+                        </label>
+                        <button class="add-post__btn" type="submit" tabindex="4"></button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+
+            <!-- Simple-post -->
+            <div class="simple-post">
+               <div class="container">
+                  <div class="simple-post__body">
+                     <p class="simple-post__text  post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Elementum
+                        volutpat orci turpis urna. Et vestibulum, posuere
+                        tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu
+                        sodales lacinia eu auctor
+                        nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+                     <time class="simple-post__date  post-date" datetime="21-06-2020 19:48">21.06.2020</time>
+                  </div>
+               </div>
+            </div>
+            <!-- Post-one-->
+            <div class="post post-one">
+               <div class="container">
+
+                  <figure class="post__card    post-card--one">
+
+                     <figcaption class="post__body">
+                        <h2 class="post__title  post-title">Как писать код быстро и безболезненно?</h2>
+                        <p class="post__text  post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           Elementum volutpat orci turpis urna. Et vestibulum, posuere
+                           tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu
+                           sodales lacinia eu auctor
+                           nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+                        <div class="post__info">
+                           <div class="post__desc">
+                              <time class="post__date  post-date" datetime="21-06-2020 13:07">21.06.2020</time>
+                              <span class="post__point  post-point"></span>
+                              <p class="post__about  post-about">создание сайтов</p>
+                           </div>
+                           <a href="#" class="post__link  post-link">читать</a>
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+
+            <!-- Post-two -->
+            <div class="post post-two">
+               <div class="container">
+                  <figure class="post__card    post__card--two">
+                     <figure class="post__video">
+                        <div class="embed">
+                           <iframe width="560" height="315" src="https://www.youtube.com/embed/tf49aRtd6XY"
+                              title="YouTube video player" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen></iframe>
+                        </div>
+                     </figure>
+                     <!--  <img src="./img/icons/video-play.svg" alt=""> -->
+                     <figcaption class="post__body">
+                        <h2 class="post__title  post-title">Купил новый ноутбук за 150 000 руб</h2>
+                        <div class="post__info">
+                           <div class="post__desc">
+                              <time class="post__date  post-date" datetime="21-04-2020 15:22">21.04.2020</time>
+                              <span class="post__point  post-point"></span>
+                              <p class="post__about  post-about">продвижение видео</p>
+                           </div>
+                           <a href="#" class="post__link  post-link">оставить комментарий</a>
+                        </div>
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+
+            <!-- Post-three -->
+            <div class="post post-three">
+               <div class="container">
+
+                  <figure class="post__card    post__card--three">
+                     <figure class="post__image">
+                        <img src="./img/post-three.jpg" alt="phone">
+                     </figure>
+                     <figcaption class="post__body">
+                        <h2 class="post__title  post-title">Как я сходил на FrontEnd Conf 2021</h2>
+                        <p class="post__text  post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           Elementum volutpat orci turpis urna. Et vestibulum, posuere
+                           tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu
+                           sodales lacinia eu auctor
+                           nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+                        <div class="post__info">
+                           <div class="post__desc">
+                              <time class="post__date  post-date" datetime="04-10-2020 11:10">04.10.2020</time>
+                              <span class="post__point  post-point"></span>
+                              <p class="post__about  post-about">создание сайтов</p>
+                           </div>
+                           <a href="#" class="post__link  post-link">читать</a>
+                        </div>
+                     </figcaption>
+                  </figure>
+
+               </div>
+            </div>
+            <div class="post post-three">
+               <div class="container">
+
+                  <figure class="post__card    post__card--three">
+                     <figure class="post__image">
+                        <img src="./img/post-three.jpg" alt="phone">
+                     </figure>
+                     <figcaption class="post__body">
+                        <h2 class="post__title  post-title">Как я сходил на FrontEnd Conf 2021</h2>
+                        <ul>
+                           <li>Познакомился...</li>
+                           <li>Узнал.......</li>
+                           <li>Увидел...</li>
+                           <li>Нашел ноых клиентов</li>
+                           <li>Отдохнул с..</li>
+                        </ul>
+                        <button>Узнать больше</button>
+                        <div class="post__info">
+                           <div class="post__desc">
+                              <time class="post__date  post-date" datetime="04-10-2020 11:10">04.10.2020</time>
+                              <span class="post__point  post-point"></span>
+                              <p class="post__about  post-about">создание сайтов</p>
+                           </div>
+                           <a href="#" class="post__link  post-link">читать</a>
+                        </div>
+                     </figcaption>
+                  </figure>
+
+               </div>
+            </div>
+
+            <!-- Pagination -->
+            <ul class="pagination">
+               <li class="pagination__item"><a href="#" class="pagination__link">&lt</a></li>
+               <li class="pagination__item"><a href="page-1.html" class="pagination__link page-num">1</a></li>
+               <li class="pagination__item"><a href="index.html" class="pagination__link page-num active">2</a></li>
+               <li class="pagination__item"><a href="page-3.html" class="pagination__link page-num">3</a></li>
+               <li class="pagination__item"><a href="#" class="pagination__link">&gt</a></li>
+            </ul>
+         </main>
+
+         <!-- Contact-modal -->
+         <div class="modal" data-modal-more id="contact-modal">
+   <div class="modal__window">
+      <form action="/" method="post" class="modal-more__form  form-auth">
+
+         <button class="modal-more-btn  modal__btn-close" data-modal-more-close-btn type="button">
+            <img src="./img/icons/close-contact-modal.svg" alt="close-icon">
+         </button>
+         <input type="text" class="form-auth__field form-field" placeholder="Ваше имя" tabindex="1">
+         <input type="email" class="form-auth__field form-field" placeholder="Ваш e-mail" tabindex="2">
+         <textarea type="text" class="form-auth__field form-field" placeholder="Текст сообщения"
+            tabindex="3"></textarea>
+         <div class="form-auth__footer form__footer">
+
+            <button type="submit" class="form-auth__btn form-btn" tabindex="4">Отправить</button>
+         </div>
+         <ul class="form__footer-list">
+            <li>
+               <a href="maito:info@mywebsite.ru" class="form__footer-link">e-mail: info@mywebsite.ru</a>
+            </li>
+            <li>
+               <a href="tel:+94323285622" class="form__footer-link">тел: +943-232-856-22</a>
+            </li>
+         </ul>
+      </form>
+   </div>
+</div>
+
+         <!-- Share-modal -->
+         <div class="modal" data-modal id="share-modal">
+   <div class="modal__window  share-modal__window">
+      <button class="modal-more-btn  modal__btn-close" data-modal-more-close-btn type="button">
+         <img src="./img/icons/close-contact-modal.svg" alt="close-icon">
+      </button>
+      <div class="share-modal__links">
+         <a href="https://ru-ru.facebook.com/" target="_blank" class="social__link  link-social">
+            <div class="link-social__icon">
+               <img src="./img/icons/facebook-modal.svg" alt="facebook-icon">
+            </div>
+
+         </a>
+         <a href="https://ru-ru.facebook.com/" target="_blank" class="social__link  link-social">
+            <div class="link-social__icon">
+               <img src="./img/icons/twitter-modal.svg" alt="facebook-icon">
+            </div>
+
+         </a>
+         <a href="https://ru-ru.facebook.com/" target="_blank" class="social__link  link-social">
+            <div class="link-social__icon">
+               <img src="./img/icons/vk-modal.svg" alt="facebook-icon">
+            </div>
+
+         </a>
+         <a href="https://ru-ru.facebook.com/" target="_blank" class="social__link  link-social">
+            <div class="link-social__icon">
+               <img src="./img/icons/email-modal.svg" alt="facebook-icon">
+            </div>
+
+         </a>
+      </div>
+
+   </div>
+</div>
+
+         <!-- Story-modal -->
+         <div class="modal" data-modal id="story-modal">
+   <div class="modal__window  story-modal__window">
+
+      <video class="story-modal__video" src="./video/Ocean-20451.mp4" controls></video>
+   </div>
+</div>
+      </div>
+
+
+
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/script.min.js"></script>
+</body>
+
+</html>

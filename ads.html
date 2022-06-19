@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Lato:regular" rel="stylesheet" />
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Ads</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <!-- Header -->
+      <header class="header">
+   <div class="header__row">
+      <nav class="header__menu  menu">
+         <div class="menu__icon  icon-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class="menu__body">
+            <ul class="menu__list">
+               <li class="menu__item">
+                  <!-- подключаем страницы и меняем стили у активной ссылки(страницы) -->
+                  <a href="index.html" class="menu__link ">Главная</a>
+               </li>
+               <!-- подключаем страницы и меняем стили у активной ссылки(страницы) -->
+               <li class="menu__item"><a href="post-single.html" class="menu__link has-subnav">Статьи</a>
+                  <ul class="sub-menu">
+                     <li class="sub-menu__item"><a href="" class="sub-menu__link">Продвижение видео</a></li>
+                     <li class="sub-menu__item"><a href="" class="sub-menu__link">Интернет-маркетинг</a></li>
+                     <li class="sub-menu__item"><a href="" class="sub-menu__link">Создание сайтов</a></li>
+                  </ul>
+               </li>
+               <li class="menu__item"><a href="about.html" class="menu__link">Обо мне</a></li>
+               <li class="menu__item"><a href="ads.html" class="menu__link">Реклама</a></li>
+               <li class="menu__item"><a href="profile.html" class="menu__link">Профиль</a></li>
+
+            </ul>
+         </div>
+      </nav>
+      <form action="search.html" class="header__form" method="get">
+         <input type="text" class="header__input" tabindex="1" placeholder="Поиск по блогу">
+      </form>
+
+   </div>
+
+</header>
+      <div class="content">
+         <!-- Aside(Sidebar) -->
+         <aside class="sidebar">
+   <div class="sidebar__header  header-sidebar">
+      <figure class="header-sidebar__image">
+         <img src="./img/Aside-img.jpg" alt="table with laptop">
+      </figure>
+   </div>
+   <div class="sidebar__content">
+
+      <div class="sidebar__person  person-sidebar">
+         <div class="person-sidebar__header">
+            <figure class="person-sidebar__image">
+               <!-- <img src="./img/sidebar-person.png" alt="man"> -->
+            </figure>
+            <div class="person-sidebar__info">
+
+               <h3 class="person-sidebar__name">Дмитрий Валак</h3>
+               <p class="person-sidebar__prof">блог front-end разработчика</p>
+            </div>
+         </div>
+
+
+         <figure class="person-sidebar__social  sidebar-social">
+            </a>
+            <a href="https://www.instagram.com/" class="sidebar-social__link " target="_blank">
+               <img src="./img/icons/sidebar-icon-instagram.svg" alt="instagram">
+            </a>
+            <a href="https://vk.com/" class="sidebar-social__link " target="_blank">
+               <img src="./img/icons/sidebar-icon-vk.svg" alt="vk">
+            </a>
+            <a href="https://ru.pinterest.com/" class="sidebar-social__link " target="_blank">
+               <img src="./img/icons/sidebar-icon-pinterest.svg" alt="pinterest">
+            </a>
+         </figure>
+         <hr class="person-sidebar__line">
+
+         <nav class="aside-menu  ">
+
+            <div class="aside-menu__body">
+               <ul class="aside-menu__list">
+                  <li class="aside-menu__item">
+                     <!-- подключаем страницы и меняем стили у активной ссылки(страницы) -->
+                     <a href="index.html" class="aside-menu__link ">Главная</a>
+                  </li>
+                  <!-- подключаем страницы и меняем стили у активной ссылки(страницы) -->
+                  <li class="aside-menu__item"><a href="post-single.html" class="aside-menu__link has-subnav">Статьи</a>
+                     <ul class="aside-sub-menu">
+                        <li class="aside-sub-menu__item"><a href="" class="aside-sub-menu__link">Продвижение видео</a>
+                        </li>
+                        <li class="aside-sub-menu__item"><a href="" class="aside-sub-menu__link">Интернет-маркетинг</a>
+                        </li>
+                        <li class="aside-sub-menu__item"><a href="" class="aside-sub-menu__link">Создание сайтов</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="aside-menu__item"><a href="text-page.html" class="aside-menu__link">Обо мне</a></li>
+                  <li class="aside-menu__item"><a href="ads.html" class="aside-menu__link">Реклама</a></li>
+                  <li class="aside-menu__item"><a href="profile.html" class="aside-menu__link">Профиль</a></li>
+
+               </ul>
+            </div>
+         </nav>
+
+         <p class="person-sidebar__text">Front-end разработчик. Практик верстки сайтов.
+            Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал более 10 000 часов
+            в создании
+            сайтов различной сложности.</p>
+         <hr class="person-sidebar__line">
+         <div class="person-sidebar__buttons">
+            <a href="works.html" class="person-sidebar__btn sidebar__btn--red">Мои работы</a>
+            <button class="person-sidebar__btn sidebar__btn--blue  modal-more-btn" data-modal="contact-modal"
+               type="button">Написать мне</button>
+         </div>
+      </div>
+
+   </div>
+
+
+
+</aside>
+
+         <main class="page">
+            <!-- Post-single -->
+            <div class="post ads">
+               <div class="container">
+                  <figure class="post__card  post-single__card">
+                     <div class="post-single__header">
+                        <a href="#" class="post-single__back">вернуться назад</a>
+                        <div class="post-single__share">
+                           <a href="#" class="post-single__link">поделиться</a>
+                           <a href="#">
+
+                              <img src="./img/icons/share.svg" alt="share">
+                           </a>
+                        </div>
+                     </div>
+                     <figcaption class="post__content">
+                        <h2 class="post__title  post-title">Ноутбук Lenovo нового поколения</h2>
+                        <p class=" post__text post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           Elementum volutpat orci turpis urna. Et vestibulum, posuere
+                           tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu
+                           sodales lacinia eu auctor
+                           nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit
+                           amet, consectetur
+                           adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia
+                           sit. Sagittis porttitor orci
+                           auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam
+                           sit sed volutpat massa.
+                           Egestas ornare vel volutpat.
+
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna.
+                           Et vestibulum, posuere
+                           tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu
+                           sodales lacinia eu auctor
+                           nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+                        <p class="post__text  post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           Elementum volutpat orci turpis urna. Et vestibulum, posuere
+                           tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce
+                           arcu
+                           sodales lacinia eu auctor
+                           nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+                        <figure class="post__image  post-single__image">
+                           <img src="./img/work-img-1.jpg" alt="phone">
+                        </figure>
+                        <p class="post__text  post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           Elementum volutpat orci turpis urna. Et vestibulum, posuere
+                           tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce
+                           arcu
+                           sodales lacinia eu auctor
+                           nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+                     </figcaption>
+
+                  </figure>
+               </div>
+            </div>
+         </main>
+      </div>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/script.min.js"></script>
+</body>
+
+</html>
